@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* padding: 20px; */
+    background: #E6EFE6;
+  }
+  
+ .card{
+  border:none;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+ }
+
+ .card-img-top{
+  width: 100%;
+ height: 80%;
+ }
+  
+  form input, form textarea, form select {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+
+
+  .form-control{
+    width:10rem;
+  }
+
+  .search_btn{
+    height: 1.85rem;
+    margin-top: 0.85rem;
+    text-align: center;
+    border:none
+  }
+
+  .search_btn:hover{
+    background-color: #3498db;
+  }
+
+  .navbar{
+    background-color: #79b791 !important;
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar-brand{
+    font-size: 2rem;
+    color: #E6EFE6 !important;
+    font-weight: 700;
+    font-family: "Special Gothic Expanded One", sans-serif;
+  }
+.navbar-brand:hover{
+    color: #E6EFE6 !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+.form-text{
+  border-radius: 4px;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.info_match{
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 2rem;
+  width: 80%;
+}

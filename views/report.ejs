@@ -1,0 +1,19 @@
+<%- include('layouts/boilerplate.ejs') %>
+<body>
+  <div class="container center">
+  <h1 style="font-family: 'Special Gothic Expanded One', sans-serif;">Report Lost or Found Item</h1>
+  <form method="POST" action="/report">
+    <input  class="form-text" type="text" name="name" placeholder="Item Name" required>
+    <textarea  class="form-text" name="description" placeholder="Description" required></textarea>
+    
+    <input class="form-text" type="text" name="image" required placeholder="image URL">
+    <input  class="form-text" type="text" name="contact" placeholder="Your Contact" required>
+    <select  class="form-text" name="type">
+      <option value="Lost">Lost</option>
+      <option value="Found">Found</option>
+    </select>
+    <button type="submit" style="background-color: #79b791; color: black;">Submit</button>
+  </form>
+</div>
+</body>
+</html>

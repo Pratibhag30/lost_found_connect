@@ -1,0 +1,11 @@
+<%- include('layouts/boilerplate.ejs') %>
+<body>
+  <div class="container center">
+  <h1 style="font-family: 'Special Gothic Expanded One', sans-serif;">Item Details</h1>
+  <form method="POST" action="/submit-item">
+    <input  class="form-text" type="text" name="name" placeholder="Item Name" required>
+    <textarea  class="form-text" name="description" placeholder="Description" required></textarea>
+    <button type="submit" style="background-color: #79b791; color: black;">Submit</button>
+  </form>
+</div>
+</body>
